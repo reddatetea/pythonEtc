@@ -1,0 +1,6 @@
+print(sys.getwindowsversion())
+__MAJOR, __MINOR, __MICRO = sys.getwindowsversion()[0], sys.getwindowsversion()[1], sys.getwindowsversion()[2]
+print('Windows主版本号:' + str(__MAJOR))
+print('Windows次版本号:' + str(__MINOR))
+print('Windows编译号:' + str(__MICRO))
+__SP = sys.getwindowsversion()[4]    # 获取补丁信息

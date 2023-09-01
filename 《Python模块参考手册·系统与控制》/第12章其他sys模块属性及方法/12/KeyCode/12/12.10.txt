@@ -1,0 +1,3 @@
+def Test(frame,event,arg): # 定义一个函数，用来作为探查器函数，必须定义3个参数
+caller=frame.f_back # 获取当前堆栈
+sys.setprofile(Test) # 设置探查器函数

@@ -1,0 +1,5 @@
+result = sys.call_tracing(add,(3,4)) # 使用sys.call_tracing回调add函数，并传入参数
+result = sys.call_tracing(show,()) # 使用sys.call_tracing回调无参数的show函数
+def add(a,b): # 定义一个函数，用来计算两个数的和
+return a+b # 返回两个数的和
+return ['做深','做专','做到位'] # 返回列表

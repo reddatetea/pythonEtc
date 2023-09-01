@@ -1,0 +1,1 @@
+﻿textcalendar_object.formatmonth(2019,8) # 打印2019年8月份字符类型的日历【快】

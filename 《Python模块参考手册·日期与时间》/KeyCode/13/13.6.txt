@@ -1,0 +1,25 @@
+print(calendar.weekday(2018,12,16))  #星期日【快1】
+# 输入日期 【快2】
+date=input('请输入日期(格式为：dddd,m,d)：')
+# 将日期分割为列表
+date_list=list(map(int,date.split(',')))
+# 获取日期的星期码
+n=calendar.weekday(date_list[0],date_list[1],date_list[2])
+itermonth= calendar_obj.itermonthdates(2020,8)  # 获取2020年8月的日期迭代器 【快3】
+# 循环遍历迭代器中的日期（其中包含当前月份开始那周与结束那周的所有日期）
+for date in itermonth:
+    # 日期转换为列表
+    date_list = list(map(int,str(date).split('-')))
+    # 获取指定日期的星期码
+    n=calendar.weekday(date_list[0],date_list[1],date_list[2])
+    # 将星期一添加到列表中
+    if n==0:
+        Mon.append(str(date))
+# 获取指定日期的星期码【快4】
+n=calendar.weekday(date_list[0],date_list[1],date_list[2])
+# 去除日期中包含的4月和8月的日期
+if  date_list[1]!=4 and date_list[1]!=8:
+    # 将除星期六和星期日的日期添加到列表中
+    if n != 5 and n != 6:
+        if str(date) not in mydate_list:
+            mydate_list.append(str(date))

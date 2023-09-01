@@ -1,0 +1,4 @@
+print('本地时间的时间元组为：', time.localtime())  # 本地时间元组【快1】
+print('UTC时区的时间元组为： ', time.gmtime())# UTC时区时间元组【快1】
+time.gmtime(seconds)  # 转换为时间元组【快2】
+time.strptime(a, "%Y-%m-%d %H:%M:%S")  # 将其转换为时间数组【快3】

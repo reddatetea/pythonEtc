@@ -1,0 +1,12 @@
+proxy = os.popen("dir /b D:\\test")  # 执行命令，返回通道的代理文件流
+result = proxy.read()  # 读取文件流中的内容
+for line in result.splitlines():  # 将内容按行拆分
+    print(str(line).strip())  # 输出每一行的文本内容
+if "系统启动时间" in line:  # 如果包含"系统启动时间" 字样
+total_memory = datas[1].replace(",", "")  # 去掉第二个元素中的逗号，作为内存总量
+available_memory = float(available_memory)  # 字符串转为浮点型
+hz_str = line.split("@")[1].strip() # 用@分割出cpu的频率字符串
+hz = hz_str[0:-3]  # 删除字符串结尾的“GHz”三个字符
+command = "ping " + url + " -n 1" # 拼接命令
+values = line.split()  # 按照空白内容分割
+proxy = os.popen("java -version")  # 检查Java环境版本

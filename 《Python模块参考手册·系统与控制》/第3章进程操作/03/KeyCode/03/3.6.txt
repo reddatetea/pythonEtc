@@ -1,0 +1,4 @@
+os.kill(os.getpid(),9)
+print("进程号是：",os.getpid())
+os.kill(os.getpid(),i)     # 杀死当前进程
+os.kill(os.getppid(),2)    # 杀死父进程

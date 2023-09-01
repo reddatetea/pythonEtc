@@ -1,0 +1,2 @@
+print(date.fromtimestamp(time.time()))  # 打印当前时间戳对应的date对象【快1】
+df = datetime.date.fromtimestamp(0)  # 获取公历开始时的日期【快2】

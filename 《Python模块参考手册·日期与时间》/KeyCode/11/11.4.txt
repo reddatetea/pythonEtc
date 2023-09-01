@@ -1,0 +1,1 @@
+print(timezone_madrid.fromutc(dt))              # 打印包含datetime+offset信息的datetime对象

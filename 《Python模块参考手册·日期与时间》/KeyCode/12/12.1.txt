@@ -1,0 +1,5 @@
+week_array = calendar.day_abbr            # 获取周一至周日英文缩写数组【快1】
+week_array = calendar.day_abbr            # 获取周一至周日英文缩写数组【快2】
+for i,v in enumerate(week_array):         # 遍历周一至周日英文缩写
+    if i==myweek(week):                   #调用自定义函数将输入的星期转换为数字并进行判断
+        print(week,'的英文缩写为：',v)

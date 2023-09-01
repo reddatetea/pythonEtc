@@ -1,0 +1,2 @@
+print('函数的运行时间为：',time.perf_counter()-start_time,'秒')  # 打印函数运行的时间【快1】
+t0 = t1 = perf_counter()  # 获取时间【快2】

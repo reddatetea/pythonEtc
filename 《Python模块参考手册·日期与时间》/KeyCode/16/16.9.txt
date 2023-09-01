@@ -1,0 +1,1 @@
+﻿HTMLCalendar对象名.formatyearpage(theyear, width=3, css='calendar.css', encoding=None)

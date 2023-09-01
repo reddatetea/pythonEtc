@@ -1,0 +1,3 @@
+print(dt.strftime("%d-%m-%y %H:%M"))    # 打印指定格式的日期字符串【快1】
+nextday = now + datetime.timedelta(days=days)   # 计算未来日期与时间【快2】
+    print('\r'+'距离国庆节还有：',str(delta.days)+'天'+str(hour) + '小时' + str(minute) + '分' + str(second) + '秒', end='')【快3】

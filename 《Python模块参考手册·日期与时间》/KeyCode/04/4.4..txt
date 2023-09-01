@@ -1,0 +1,4 @@
+print(time.strftime('%Y-%m-%d'))      # 输出年-月-日【快1】
+print(time.strftime('%Y-%m-%d %H:%M:%S %A %B'))   # %A输出英文星期全写，%B输出英文月份全写【快2】
+#根据localtime()返回的时间获取年 月 日 时 分 秒【快3】
+print(time.strftime('%Y %m %d %H %M %S',time.localtime()))

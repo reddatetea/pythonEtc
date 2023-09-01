@@ -1,0 +1,9 @@
+#创建日期时间对象【快1】
+dt = datetime(2020, 5, 29, hour=10, minute=11, second=30, microsecond=100)
+print(dt.year,'年')
+print(dt.month,'月')
+print(dt.day,'日')
+#获取的时间的最大值、最小值和最小单位【快2】
+print('最大值：',dt.max)
+print('最小值：',dt.min)
+print('最小单位：',dt.resolution)

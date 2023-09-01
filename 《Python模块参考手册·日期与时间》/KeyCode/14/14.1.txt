@@ -1,0 +1,2 @@
+﻿itermonth= calendar_obj.itermonthdates(2019,8) # 获取2019年8月份的日期迭代器【快1】
+mydate=calendar_obj.itermonthdates(year,month) # 获取日期迭代器【快2】

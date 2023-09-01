@@ -1,0 +1,4 @@
+calendar.setfirstweekday(6)               #将星期日设置为一周第一天【快1】
+print('修改后：',calendar.firstweekday())            #返回6，即星期日
+calendar.setfirstweekday(firstweekday=5) #设置第一天是星期六【快2】
+print(calendar.month(year,month)) # 显示日历

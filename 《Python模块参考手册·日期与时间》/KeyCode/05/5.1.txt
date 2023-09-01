@@ -1,0 +1,1 @@
+print(date_object.__format__('%Y-%m-%d %a %B'))# 打印以“-”分隔的日期字符串

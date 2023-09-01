@@ -1,0 +1,5 @@
+print(sys.hash_info.width)  #  获取哈希值的位宽度
+print(sys.hash_info.nan)  # 获取nan哈希值
+print(sys.hash_info.algorithm)  # 获取哈希算法名称
+print(sys.hash_info.seed_bits)  # 获取哈希算法的种子秘钥大小
+print(sys.hash_info)  # 获取所有哈希信息

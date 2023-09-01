@@ -1,0 +1,2 @@
+calendar_obj.monthdayscalendar(2019,8)  # 获取2019年8月份日期天数，该列表为二维列表【快1】
+cal.monthdatescalendar(today.year, today.month)  # 获取指定年份和月份的日期天数，该列表为二维列表【快2】

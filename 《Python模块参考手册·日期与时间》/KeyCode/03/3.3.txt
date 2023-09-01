@@ -1,0 +1,3 @@
+start_time = time.monotonic_ns()    # 第一次调用
+time.sleep(2)                         # 休眠2秒
+end_time = time.monotonic_ns()      # 第二次调用

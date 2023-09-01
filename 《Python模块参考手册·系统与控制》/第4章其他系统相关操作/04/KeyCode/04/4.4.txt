@@ -1,0 +1,2 @@
+r,w = os.pipe()  # 创建用于读写的文件描述符
+os.set_handle_inheritable( handle ,True) # 设置指定句柄的可继承标志

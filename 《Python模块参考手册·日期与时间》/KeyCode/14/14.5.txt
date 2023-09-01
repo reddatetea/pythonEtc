@@ -1,0 +1,2 @@
+﻿itermonth= calendar_obj.itermonthdays3(2019,8) # 获取2019年8月份内的年、月、日【快1】
+itermonth= calendar_obj.itermonthdays3(2020,8) # 获取2020年8月份内的年、月、日【快2】

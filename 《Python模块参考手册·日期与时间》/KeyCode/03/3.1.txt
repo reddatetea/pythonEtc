@@ -1,0 +1,1 @@
+time.monotonic()      # 第二次调用【快1】

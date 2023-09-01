@@ -1,0 +1,5 @@
+sys.stdin.readline().strip('\n')
+password = sys.stdin.readline().upper().strip('\n')
+name = sys.stdin.readline().capitalize().strip('\n')
+school = sys.stdin.readline().title().strip('\n')
+if numbers.isdigit() and numbers == 123456: # 如果验证码均为数字且验证码为123456

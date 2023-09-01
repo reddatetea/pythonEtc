@@ -1,0 +1,4 @@
+print(time.ctime())           #使用ctime()方法输出表示本地时间的字符串【快1】
+print(time.ctime(1564383417.9643884))  # 指定时间戳【快2】
+time.mktime(time_array)  # 转换为时间戳【快3】
+datetime.datetime.strptime(t, '%a %b %d %H:%M:%S %Y')  # 格式化为指定格式【快4】

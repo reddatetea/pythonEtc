@@ -1,0 +1,1 @@
+print(datetime.fromisoformat(str_dt))

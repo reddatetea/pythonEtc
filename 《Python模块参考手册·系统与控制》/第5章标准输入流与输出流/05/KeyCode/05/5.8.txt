@@ -1,0 +1,5 @@
+sys.stderr.write('错误提示\n')
+name=sys.stdin.readline()[:-1]
+for i in range(20):
+time.sleep(0.3)
+sys.stderr = open('login.txt', 'a+') # 将用户登录错误日志写入文件

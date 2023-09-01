@@ -1,0 +1,1 @@
+﻿print(htmlcalendar_object.formatmonth(2019,8)) # 打印2019年8月份日历对应的HTML表格代码【快】

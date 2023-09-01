@@ -1,0 +1,3 @@
+from datetime import  date    # 导入datetime模块中的date类【快1】
+print(date.today())            # 打印当前本地日期【快1】
+today_change = datetime.date.today()      # 获取本地日期【快2】

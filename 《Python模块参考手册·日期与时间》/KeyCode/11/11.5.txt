@@ -1,0 +1,1 @@
+print(datetime.now())       # 通过now方法打印当前系统日期和时间

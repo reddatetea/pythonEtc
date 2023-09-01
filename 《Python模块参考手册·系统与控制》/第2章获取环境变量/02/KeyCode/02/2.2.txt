@@ -1,0 +1,8 @@
+data1 = os.environ                                  # 获取当前操作系统的环境变量的映射对象
+os.environ[newvar] = r'C:\Java\jdk1.8.0_181'     # 创建环境变量
+data2 = os.environ['WORKON_HOME']="test"         # 设置环境变量
+data3 = os.environ['HOMEPATH']                     # 当前用户主目录
+data4 = os.environ['TEMP']                         # 临时目录路径
+data5 = os.environ['PATHEXT']                      # 可执行文件
+data6 = os.environ['SYSTEMROOT']                   # 系统主目录
+data7 = os.environ['LOGONSERVER'])                 # 机器名

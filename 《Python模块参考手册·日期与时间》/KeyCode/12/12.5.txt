@@ -1,0 +1,5 @@
+month_list = list(calendar.month_name)# 将数组转换为列表【快1】
+month_list = list(calendar.month_name)# 将数组转换为列表【快2】
+for i in month_list:
+    if i!='':                          # 去除空的列表元素
+        if month_list.index(i)%2==0: # 奇偶月判断

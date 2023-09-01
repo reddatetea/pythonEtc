@@ -1,0 +1,5 @@
+from datetime import datetime  # 导入datetime模块中的datetime类【快1】
+dt = datetime.today()    # 获取当前日期时间【快1】
+print(dt.toordinal())    # 打印自0001年01月01日开始至当前日期时间的天数【快1】
+days_start = datetime_start.toordinal()  # 获取开始日期的天数【快2】
+days_end = datetime_end.toordinal()  # 获取结束日期的天数【快2】

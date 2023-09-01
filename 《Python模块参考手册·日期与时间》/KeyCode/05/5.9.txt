@@ -1,0 +1,1 @@
+print(date_object.isoformat()+'类型为：',type(date_object.isoformat()))

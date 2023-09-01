@@ -1,0 +1,3 @@
+addr = sys.exec_prefix[0:1]  # 获取文件所在磁盘
+free_bytes = ctypes.c_ulonglong(0)   #获取该磁盘的剩余空间
+ctypes.windll.kernel32.GetDiskFreeSpaceExW(ctypes.c_wchar_p(addr+":\\"), None, None, ctypes.pointer(free_bytes))

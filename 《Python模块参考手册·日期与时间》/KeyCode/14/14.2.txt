@@ -1,0 +1,3 @@
+﻿itermonth= calendar_obj.itermonthdays(2019,8) # 获取2019年8月份日期对应天数的迭代器【快1】
+itermonth= list(calendar_obj.itermonthdays(2020,i)) # 获取2020年1~12月日期的迭代器【快2】
+itermonth= list(calendar_obj.itermonthdays(i,2)) # 获取2010年~2020年每年2月日期的迭代器【快3】

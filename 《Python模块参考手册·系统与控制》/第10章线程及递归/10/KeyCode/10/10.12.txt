@@ -1,0 +1,2 @@
+sys.set_asyncgen_hooks(firstiter=self._asyncgen_firstiter_hook,finalizer=self._asyncgen_finalizer_hook)  # 设置新的异步生成器终结器和拦截迭代器
+old_agen_hooks = sys.get_asyncgen_hooks()  # 获取默认的异步生成器函数

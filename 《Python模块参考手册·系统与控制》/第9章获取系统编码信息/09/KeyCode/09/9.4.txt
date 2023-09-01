@@ -1,0 +1,3 @@
+print('文件系统原编码名称：', sys.getfilesystemencoding())  # 输出文件系统编码
+print('文件名原转换错误模式：', sys.getfilesystemencodeerrors())  # 输出文件名转换时的错误模式名称
+sys._enablelegacywindowsfsencoding()

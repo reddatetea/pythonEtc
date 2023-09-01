@@ -1,0 +1,2 @@
+sys.stdout = open('test.txt','w') # sys.stdout的指向将从控制台重定向到文件
+temp = sys.stdout   # 记录sys.stdout的原始指向

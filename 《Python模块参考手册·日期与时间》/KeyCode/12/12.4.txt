@@ -1,0 +1,1 @@
+print(list(calendar.month_abbr)) # 打印一年中每个月份的英文缩写

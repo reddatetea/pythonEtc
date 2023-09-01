@@ -1,0 +1,2 @@
+print(datetime.fromtimestamp(time.time()))  # 根据当前时间戳创建datetime对象【快1】
+a = datetime.datetime.fromtimestamp(stamp)  # 相差的时间戳 日期时间【快2】

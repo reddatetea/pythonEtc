@@ -1,0 +1,2 @@
+struct02 = date.today().timetuple()    # 获取当前日期对象，并提取结构化时间
+print("time.astime = ", time.asctime(struct02))

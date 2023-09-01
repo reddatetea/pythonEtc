@@ -1,0 +1,1 @@
+print('函数的运行时间为：',time.perf_counter_ns()-start_time,'纳秒')  # 打印函数运行的时间

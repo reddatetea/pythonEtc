@@ -1,0 +1,3 @@
+print(time.mktime(t))                       #以时间元组作为参数并返回时间戳【快1】
+print('返回的时间戳为：',time.mktime(t))    # 以本地当前时间的时间元组为参数返回时间戳【快2】
+time.mktime(timetuple)                      # 将时间元组转换为时间戳【快3】

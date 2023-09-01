@@ -1,0 +1,1 @@
+print(sys.intern('hello')) # 获取字符串副本

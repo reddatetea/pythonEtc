@@ -1,0 +1,4 @@
+date_object = date(2019,5,1)   # 创建指定日期的date对象【快1】
+print('原对象：',date_object)                      # 打印原date对象【快1】
+print('新对象：',date_object.replace(2019,8,13))   # 打印替换后的新date对象【快1】
+date_3 = date_0.replace(date_1.year, date_1.month, date_1.day)  # 使用date_1替换date_0【快2】

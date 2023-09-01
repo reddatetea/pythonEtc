@@ -1,0 +1,1 @@
+﻿print(datetime.fromordinal(days)) # 打印公历序数对应的datetime对象【快】

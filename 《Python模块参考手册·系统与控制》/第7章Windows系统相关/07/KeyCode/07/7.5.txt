@@ -1,0 +1,4 @@
+print('默认跟踪函数：', sys.gettrace())  # 获取默认跟踪函数
+sys.settrace(Test) # 设置跟踪函数
+testB() # 调用testB()
+print('设置的跟踪函数：',sys.gettrace()) # 获取设置的跟踪函数

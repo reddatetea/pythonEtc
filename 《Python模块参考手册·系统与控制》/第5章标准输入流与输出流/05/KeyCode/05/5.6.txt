@@ -1,0 +1,4 @@
+for j in range(6):
+    sys.stdout.write('.')
+    sys.stdout.flush()
+    time.sleep(0.3)

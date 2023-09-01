@@ -1,0 +1,7 @@
+week_array = calendar.day_name            # 获取周一至周日英文名称数组【快1】
+day_randoms=random.sample(list,3)  # 随机不重复（从列表中随机抽取3个数字）【快2】
+#将随机抽取的数字转换为与之对应的星期的英文名称
+week_array = calendar.day_name            # 获取周一至周日英文名称数组
+for i in day_randoms:
+    print(week_array[i])
+→语法

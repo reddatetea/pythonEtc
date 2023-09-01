@@ -1,0 +1,4 @@
+sys._xoptions
+python -X test
+python -X x=1 -X y=1
+python -X C:\Windows\System32\mspaint.exe

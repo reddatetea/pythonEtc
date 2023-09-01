@@ -1,0 +1,3 @@
+print(date.fromordinal(1))     # 打印1天对应的日期对象【快1】
+bgl = datetime.date.fromordinal(nol)  # 转换为日期【快2】
+am = datetime.date.fromordinal(bm + 1)  # 超出最大天数【快2】

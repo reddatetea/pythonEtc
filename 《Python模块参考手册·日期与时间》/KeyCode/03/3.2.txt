@@ -1,0 +1,2 @@
+time.get_clock_info('time')  # 获取time()方法的时钟信息【快1】
+print(i,'方法的时钟信息为：\n',time.get_clock_info(i))  # 获取每个时钟方法的信息【快2】

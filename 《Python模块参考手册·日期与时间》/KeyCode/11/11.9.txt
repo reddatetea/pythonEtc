@@ -1,0 +1,1 @@
+t2 = datetime.time(4,5,12,tzinfo=timezone_toronto)     # -4时区的时间对象

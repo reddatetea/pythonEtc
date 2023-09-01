@@ -1,0 +1,9 @@
+﻿t=time(16,13,56,888) # 创建时间对象【快1】
+time_str = t.isoformat() # 获取时间字符串【快1】
+time_object = time.fromisoformat(time_str) # 获取时间字符串对应的时间对象【快1】
+dtt_micro = dtt.isoformat(timespec="microseconds") # 精确到微秒【快2】
+dtt_milli = dtt.isoformat(timespec="milliseconds") # 精确到毫秒【快2】
+dtt_sec = dtt.isoformat(timespec="seconds") # 精确到秒【快2】
+dtt_min = dtt.isoformat(timespec="minutes") # 精确到分【快2】
+dtt_hou = dtt.isoformat(timespec="hours") # 精确到时【快2】
+dtt_auto = dtt.isoformat(timespec="auto") # 自动【快2】

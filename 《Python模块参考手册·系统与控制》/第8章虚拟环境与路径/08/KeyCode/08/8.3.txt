@@ -1,0 +1,2 @@
+print(sys.base_exec_prefix)
+if sys.base_exec_prefix[0:1]=='C': # 判断是否安装在C盘

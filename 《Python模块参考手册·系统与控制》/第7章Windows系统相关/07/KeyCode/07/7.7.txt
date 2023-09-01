@@ -1,0 +1,3 @@
+print('列表：',sys.getsizeof([]))
+print('字符串：',sys.getsizeof(''))
+print('整数：',sys.getsizeof(1))

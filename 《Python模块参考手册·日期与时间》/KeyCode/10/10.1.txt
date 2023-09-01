@@ -1,0 +1,7 @@
+now_dt = datetime.today()                          # 【快3】
+before_dt = now_dt.replace(year = 2015, day =  23) # 【快3】
+delta = timedelta(days = 1)                        # 【快5】
+before_month_days = monthrange(now.year, now.month - 1) # 【快7】
+print(f"且下一个月的今天为：星期 {after.isoweekday()}") # 【快8】
+now_leap = calendar.isleap(now.year)                    # 【快9】
+if now <= datetime(**date_dict):                        # 【快10】

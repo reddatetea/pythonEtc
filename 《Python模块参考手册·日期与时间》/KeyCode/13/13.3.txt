@@ -1,0 +1,4 @@
+print(calendar.leapdays(2000,2018))   #检测从2000年到2018年（不包括该年）之间的闰年个数【快1】
+for i in range(2010,2021,1): 【快2】
+    n=calendar.leapdays(i,i+1)   #检测每一年的闰年个数n大于零为闰年
+n=calendar.leapdays(year,year+1)   #检测闰年个数【快3】

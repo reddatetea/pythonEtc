@@ -1,0 +1,6 @@
+print(os.urandom(10))  # 生成10个字节的随机数
+import base64  # 导入进行base64编码和解码的模块
+print(base64.b64encode(key)) # 进行base64编码
+result = {}  # 保存生成的随机数的字典
+for i in range(10000):
+if bc not in result:  # 当不重复时

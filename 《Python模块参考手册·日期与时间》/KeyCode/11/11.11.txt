@@ -1,0 +1,3 @@
+# 创建名称为欧洲 马德里时区
+timezone_madrid = datetime.timezone(datetime.timedelta(hours=2),name='Europe/Madrid')
+print(timezone_madrid.utcoffset(dt))      # 打印时区名称

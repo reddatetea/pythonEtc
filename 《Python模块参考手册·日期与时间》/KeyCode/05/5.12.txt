@@ -1,0 +1,1 @@
+print(date_object.strftime('%Y-%m-%d %a %B'))# 打印指定格式的日期字符串

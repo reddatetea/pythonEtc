@@ -1,0 +1,2 @@
+bo=sys.byteorder      # 获取本机的字节顺序
+if bo=="little":

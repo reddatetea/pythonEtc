@@ -1,0 +1,2 @@
+dt1 = datetime.datetime.now(tz=gettz('China Standard Time'))       # 获取中国标准时间时区
+print('夏令时偏移量：',dt1.dst())

@@ -1,0 +1,1 @@
+print(dt.isoformat())    # 打印日期时间对象所对应的字符串

@@ -1,0 +1,6 @@
+os.system('"D:\\test\\变量.mp4"')  # 打开视频文件
+command = "net user %s %s /add" % (username, password)  # 拼接命令
+os.system("move *.txt ./文本文档/")# 将文件夹中所有.txt后缀的文件都移动到“文本文档”的文件夹中
+os.system("shutdown -s") # 执行关机命令
+os.system("shutdown -a") # 执行解除关机命令
+os.sytem('pip install numpy')  # 安装模块

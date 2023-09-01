@@ -1,0 +1,6 @@
+dt = datetime.today()    # 获取当前日期时间【快1】
+print(dt.isocalendar())  # 打印当前日期的年份、周数、星期数的元组【快1】
+datetime_start = datetime.datetime(year=2020, month=5, day=2)  # 开始日期【快2】
+datetime_end = datetime.datetime(year=2020, month=5, day=20)  # 结束日期【快2】
+calendar_start = datetime_start.isocalendar()  # 获取包含周数和星期数的元组【快2】
+calendar_end = datetime_end.isocalendar()  # 获取包含周数和星期数的元组【快2】

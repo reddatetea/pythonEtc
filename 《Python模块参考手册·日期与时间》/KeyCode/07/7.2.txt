@@ -1,0 +1,14 @@
+import datetime                #导入日期时间模块【快1】
+print(datetime.date(2019,8,1))  #输出date对象【快1】
+date_object=datetime.date(2019,8,1)  # 创建日期对象【快2】
+print('日期对象的年为：',date_object.year)  # 获取年【快2】
+print('日期对象的月为：',date_object.month)  # 获取月【快2】
+print('日期对象的日为：',date_object.day)  # 获取日【快2】
+print(datetime.date.min)                  # 打印日期最小值【快3】
+print(datetime.date.max)                  # 打印日期最大值【快3】
+print(datetime.date.resolution)           # 打印日期最小单位【快3】
+ddt = datetime.datetime.today()  # 获取今天的日期时间对象【快4】
+year = ddt.year  # 获取年【快4】
+month = ddt.month  # 获取月【快4】
+day = ddt.day  # 获取日【快4】
+da = datetime.date(year, month, day)  # 生成日期对象【快4】

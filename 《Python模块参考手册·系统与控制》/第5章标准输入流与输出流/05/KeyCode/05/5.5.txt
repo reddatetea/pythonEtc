@@ -1,0 +1,4 @@
+sys.stdout.write('hello')
+for i in range(20):
+time.sleep(0.3)
+sys.stdout = open('mingri.txt','w')

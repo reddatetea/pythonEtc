@@ -1,0 +1,7 @@
+print(sys.exc_info())  # 捕获并输出异常相关信息
+db = pymysql.connect("localhost", "root", "root", "db") # 连接数据库
+file=open('test.txt','r') # 打开test.txt文本文件
+types, value, back = sys.exc_info()  # 使用3个变量存储异常类、异常名称及回溯对象
+if types==FileNotFoundError: # 判断异常类名称
+file=open('test.txt','w') # 创建文件
+os.system('pip install jieba') # 安装jieba

@@ -1,0 +1,4 @@
+def Test(frame,event,arg):
+    caller=frame.f_back # 获取当前堆栈
+    print('call',caller) # 返回调用的堆栈信息
+sys.settrace(Test) # 设置跟踪函数

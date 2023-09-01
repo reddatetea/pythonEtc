@@ -1,0 +1,3 @@
+﻿print(htmlcalendar_object.formatyear(2019)) # 打印2019年日历对应的HTML表格代码【快1】
+calendar_html = htmlcalendar_object.formatyear(int(year)) # 获取指定年份的HTML代码【快2】
+html = htmlcalendar_object.formatyear(2020) # 获取指定年份的HTML代码【快3】

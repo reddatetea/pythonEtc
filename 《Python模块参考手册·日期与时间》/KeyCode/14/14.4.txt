@@ -1,0 +1,7 @@
+﻿# 获取2019年8月份日期对应天数与星期的迭代器【快1】
+itermonth= calendar_obj.itermonthdays2(2019,8)
+# 累加指定月份包含的星期日数【快2】
+itermonth= calendar_obj.itermonthdays2(2020,8)
+for i in itermonth: # 循环遍历迭代器中日期对应的天数与星期
+if i[0]!=0 and i[1]==6: # 月份不等于0且星期为6(即星期日）
+n=n+1 # 累计求和

@@ -1,0 +1,4 @@
+print(os.name)   # 获取当前操作系统对应的模块名称
+if os.name == 'nt': # 判断是否为Windows操作系统
+mode = ((os.stat(tempname).st_mode)|0o555) & 0o777  # 设置路径模式
+os.chmod(tempname,mode)    # 设置路径模式

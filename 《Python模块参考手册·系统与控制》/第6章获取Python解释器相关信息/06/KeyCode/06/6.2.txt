@@ -1,0 +1,4 @@
+print(sys.version)
+if sys.version[0:5] == '3.8.2':
+    print('您当前使用的是Python 3.8.2版本')
+index1 = version.index(",")#获取第一个逗号的索引

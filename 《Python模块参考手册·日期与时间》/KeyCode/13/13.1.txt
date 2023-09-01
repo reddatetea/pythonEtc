@@ -1,0 +1,2 @@
+c = Calendar()     # 创建默认的Calendar对象
+c = Calendar(firstweekday=6)        # 设置周日为一周的第一天

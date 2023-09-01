@@ -1,0 +1,1 @@
+print(sys._getframe(0)) # 与print(sys._getframe())等效

@@ -1,0 +1,3 @@
+﻿textcalendar_object.prmonth(2019,8) # 打印2019年8月份的日历【快1】
+textcalendar_object.prmonth(2020,5,w=2,l=2) # 打印2020年5月份的日历【快2】
+textcalendar_object.prmonth(int(year), int(month)) # 打印指定年指定月份的日历【快3】

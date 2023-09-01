@@ -1,0 +1,2 @@
+timezone_madrid = datetime.timezone(datetime.timedelta(hours=2),name='Europe/Madrid')
+print(timezone_madrid.dst(dt))                              # 打印自定义欧洲 马德里时区对象的dst

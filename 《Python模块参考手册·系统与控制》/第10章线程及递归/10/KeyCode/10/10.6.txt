@@ -1,0 +1,5 @@
+sys.setrecursionlimit(10) # 手动设置递归深度为10
+print('第 {} 次数'.format(i)) # 输出执行次数
+except RuntimeError as err: # 捕捉异常
+def count(num): # 定义函数
+if num<1000: # 判断数字小于1000

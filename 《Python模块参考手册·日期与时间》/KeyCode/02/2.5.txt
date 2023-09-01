@@ -1,0 +1,5 @@
+print(time.localtime())             # 获取本地当前时间的时间元组【快1】
+print(time.localtime(time.time())) # 以time.time()返回的时间戳为参数获取本地时间的时间元组【快1】
+print(time.localtime(1544773763.789422))  # 将给定的时间戳转为当地时间的时间元组【快2】
+print('属性名获取的年份为：',t.tm_year, "年")  # 通过“.属性名”的方式获取年份【快3】
+a = time.localtime(t)  # 获得当地时间的时间元组【快4】

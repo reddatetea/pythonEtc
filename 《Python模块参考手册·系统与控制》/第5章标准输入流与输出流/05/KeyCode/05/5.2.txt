@@ -1,0 +1,2 @@
+str = sys.stdin.read(5) # 读取输入的前5个字符
+for i in range(len(abbr)): # 遍历各个省市的简称

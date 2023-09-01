@@ -1,0 +1,2 @@
+print(dt1.timetuple())                  # 打印未设置时区的时间元组,默认北京时区+8
+print(dt1.utctimetuple())               # 打印未设置时区UTC协调世界时的时间元组,默认北京时区+8

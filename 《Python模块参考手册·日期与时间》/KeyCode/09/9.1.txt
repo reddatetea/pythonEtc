@@ -1,0 +1,1 @@
+print(datetime.combine(d,t))    # 打印合并后的datetime对象 

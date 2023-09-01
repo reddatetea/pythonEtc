@@ -1,0 +1,2 @@
+sys.warnoptions  # 输出警告内容
+python -W warning  #  使用指定的警告选项启动python解释器

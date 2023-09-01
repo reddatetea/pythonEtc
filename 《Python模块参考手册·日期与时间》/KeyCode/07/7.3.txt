@@ -1,0 +1,3 @@
+from datetime import  date    # 导入datetime模块中的date类【快1】
+print(date.fromisoformat('2019-08-13'))  # 打印指定字符串日期对应的日期对象【快1】
+date_format = datetime.date.fromisoformat(date_str)  # 转换为日期对象怕【快2】

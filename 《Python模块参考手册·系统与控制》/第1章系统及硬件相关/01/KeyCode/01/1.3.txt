@@ -1,0 +1,5 @@
+os.execv("D:\\test\\ffmpeg.exe", avg) # 执行视频处理相关操作
+os.execlp("shutdown", "shutdown", "-r", "-t", "300")  # 5分钟重启计算机
+env = {"PATH": "C:\\Program Files\\Java\\jdk-11.0.2\\bin;"} # 设置Java运行环境的环境变量
+args = ["eclipse.exe"]  # 启动Eclipse的命令
+os.execve("E:\\eclipse\\eclipse.exe", args, env) # 指定Eclipse的启动文件，启动Eclipse,配置环境变量

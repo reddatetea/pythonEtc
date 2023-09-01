@@ -1,0 +1,15 @@
+print('指定时间元组对应的时间戳为：',calendar.timegm((2019,1,2,21,26,0,0,0,0)))   #【快1】
+#将localtime()方法获取的当前时间的时间元组转换为时间戳
+print('当前时间元组对应的时间戳为：',calendar.timegm(time.localtime()))   #【快1】
+date_start=calendar.timegm((2020,5,21,0,0,0))   # 当前时间【快2】
+date_end=calendar.timegm((2021,6,7,0,0,0))   # 2021年高考时间：2021年6月7日
+print('距离2021年高考：',int((date_end-date_start)/86400),'天') #1天=86400 秒
+mytime=datetime.datetime.now()   # 当前系统时间【快3】
+y=mytime.year      # 年
+m=mytime.month     # 月
+d=mytime.day       # 日
+h=mytime.hour      # 小时
+min=mytime.minute  # 分钟
+s=mytime.second    # 秒
+#将时间元组转换为时间戳
+a=calendar.timegm((y,m,d,h,min,s))   # 返回结果乘以1000转换为毫秒得到13位时间戳

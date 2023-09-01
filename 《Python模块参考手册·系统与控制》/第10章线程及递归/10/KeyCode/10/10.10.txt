@@ -1,0 +1,2 @@
+print('默认：',sys.get_coroutine_origin_tracking_depth())  # 获取协同源跟踪深度
+sys.set_coroutine_origin_tracking_depth(1)  # 启用协同源跟踪

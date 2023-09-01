@@ -1,0 +1,3 @@
+for k, v in sys.modules.items(): # 遍历所有模块字典
+print(sys.modules["os"]) # 获取os模块的来源
+for i in sys.modules.keys(): # 遍历模块列表

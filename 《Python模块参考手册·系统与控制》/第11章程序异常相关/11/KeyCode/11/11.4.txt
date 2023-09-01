@@ -1,0 +1,5 @@
+sys.tracebacklimit=100 # 设置最大递归（回溯）层级为100级
+print(sys.tracebacklimit) # 输出递归（回溯）层级
+file=open('test.txt','r') # 打开test.txt文本文件
+types, value, back = sys.exc_info()  # 捕获异常
+sys.excepthook(types, value, back)  # 打印异常

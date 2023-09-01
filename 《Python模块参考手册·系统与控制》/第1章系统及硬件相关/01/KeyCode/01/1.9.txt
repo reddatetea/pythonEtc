@@ -1,0 +1,2 @@
+sz = os.get_terminal_size()  # 获取终端大小
+os.system("mode con cols=100 lines=40")  # 设置终端宽度100、高度40

@@ -1,0 +1,12 @@
+dt = datetime.today()    # 获取当前日期时间【快1】
+print(dt.weekday())      # 打印当前日期中星期对应的数字【快1】
+dt = datetime(2019,9,8)        # 创建指定日期的datetime对象【快2】
+print(dt.weekday())             # 打印指定日期中星期对应的数字【快2】
+
+for i in range(delta.days + 1):
+      p = (day_start + timedelta(days=i)).strftime('%Y-%m-%d')  # 具体哪一天
+      pp = datetime.strptime(str(p), '%Y-%m-%d')  # 转为datetime类型
+      wd = pp.weekday()
+      if wd == w-1:  # 判断星期几【快3】
+          d2 = pp.strftime('%Y-%m-%d')
+          data_list.append(d2)

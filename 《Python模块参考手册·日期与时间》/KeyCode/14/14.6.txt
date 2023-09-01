@@ -1,0 +1,3 @@
+print('返回的迭代器为：',calendar_obj.iterweekdays())     # 打印迭代器对象【快1】
+calendar_obj2= Calendar(firstweekday=6)   # 创建Calendar对象并指定firstweekday值为6【快2】
+print('将迭代器转换为列表：',list(calendar_obj2.iterweekdays()))

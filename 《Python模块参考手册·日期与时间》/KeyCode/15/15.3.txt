@@ -1,0 +1,2 @@
+calendar_obj.monthdays2calendar(2019,8)  # 获取2019年8月份日期天数与对应的星期数字，该列表为二维列表 【快1】
+cal.monthdays2calendar(year, month)  # 获取指定年份和月份日期天数与对应的星期数字，该列表为二维列表    【快2】

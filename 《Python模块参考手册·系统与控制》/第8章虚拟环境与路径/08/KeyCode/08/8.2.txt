@@ -1,0 +1,7 @@
+for i in sys.path:  # 遍历所有路径列表
+print("当前Python文件的路径为：", sys.path[0])
+
+sys.path.append("./module") # 添加模块搜索路径
+
+it = i.split("\\")  # 将路径以\分割
+if it.count("pip")>0:    #判断路径中是否含有字符串"pip"

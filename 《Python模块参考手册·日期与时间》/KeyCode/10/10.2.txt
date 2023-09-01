@@ -1,0 +1,1 @@
+print(td.total_seconds())    # 时间差中包含的总秒数

@@ -1,0 +1,1 @@
+print(t.strftime('%H'))      # 打印小时

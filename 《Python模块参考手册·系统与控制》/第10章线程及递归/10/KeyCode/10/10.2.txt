@@ -1,0 +1,5 @@
+print(sys.getswitchinterval()) # 输出默认线程间隔
+sys.setswitchinterval(4295) # 手动设置线程间隔超过4294.9
+import random # 导入随机生成器模块
+randfir = randfir + random.choice(number)  # 每次生成一个随机因子
+time.sleep(default)  # 休眠指定时间

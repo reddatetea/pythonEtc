@@ -1,0 +1,1 @@
+t2 = datetime.time(13,57,12,tzinfo=plus_four)                     # +4时区time对象

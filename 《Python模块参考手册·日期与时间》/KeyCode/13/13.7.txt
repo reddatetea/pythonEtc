@@ -1,0 +1,3 @@
+#周一至周日英文缩写
+print(calendar.weekheader(5))
+print(calendar.weekheader(10))

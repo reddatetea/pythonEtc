@@ -1,0 +1,11 @@
+result1 = os.getenv('wind1', default='未定义该环境变量！')  # 获取一个不存在的系统环境变量wind1的值
+result2 = os.getenv("path")
+result3 = os. getenv('HOMEPATH')    # 当前用户主目录
+result4 = os.getenv('TEMP')         # 临时目录路径
+result5 = os. getenv('PATHEXT')     # 可执行文件
+result6 = os.getenv('SYSTEMROOT')   # 系统主目录
+result7 = os.getenv('LOGONSERVER')  # 机器名
+result8 = os.getenv("OS")            # 当前系统名称
+digits = os.getenv("PROCESSOR_ARCHITECTURE")  # 读取当前处理器架构
+result9 = os.getenv("programfiles"))  # 应用程序的默认安装目录
+result10 = os.getenv("USERNAME")  # 当前Windows账户名

@@ -1,0 +1,3 @@
+    if hasattr(sys.modules[__name__], "stamp0" + str(index)):
+        var = getattr(sys.modules[__name__], "stamp0" + str(index))
+        obj = datetime.utcfromtimestamp(var)

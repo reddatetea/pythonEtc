@@ -1,0 +1,4 @@
+print(sys.hexversion)
+hexversion = hex(sys.hexversion) #Python版本号的十六进制表示形式
+print(hexversion)
+if sys.hexversion == 0x30701F0: #判断Python版本是不是3.7.1

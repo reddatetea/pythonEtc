@@ -1,0 +1,5 @@
+print(sys.thread_info)
+list = sys.thread_info # 获取线程信息
+for value in list: # 遍历列表
+if list[0]=='nt': # 判断name名称
+if list[1]=='semaphore': # 判断锁的名称

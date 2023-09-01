@@ -1,0 +1,2 @@
+﻿textcalendar_object.pryear(2019,m=6) # 打印2019年中所有月份的日历【快1】
+textcalendar_object.pryear(2020,w=1,l=1,c=1,m=6) # 打印2020年中所有月份的日历【快2】

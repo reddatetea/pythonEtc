@@ -1,0 +1,11 @@
+from datetime import time     # 导入datetime模块中的time类【快1】
+t=time(16,13,56,888)    #创建时间对象【快1】
+print(time.max)         #time类所能表示的最大时间【快2】
+print(time.min)         #time类所能表示的最小时间【快2】
+print(time.resolution)   #两个不同时间的最小单位【快2】
+print(t.tzinfo)         # 在没有指定时区参数时，返回None【快3】
+t1 = datetime.time()  # 创建一个所有参数均为0的时间对象【快4】
+pst = datetime.timezone(dtd, name="PST")  # 创建一个时区【快5】
+tl = ti.replace(tzinfo=pst)  # 通过指定时区实例将naive对象转换为aware对象【快5】
+tt = (11, 59, 59, 9999)  # 定义一个时间元组【快6】
+ti = datetime.time(*tt)  # 使用splat运算符解压缩时间元素并创建时间实例，注意添加*【快6】

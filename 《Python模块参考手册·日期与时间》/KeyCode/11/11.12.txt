@@ -1,0 +1,2 @@
+print(timezone_madrid.utc)              # 打印名称为欧洲 马德里时区的utc时区【快1】
+obj = obj.replace(tzinfo = timezone.utc)      # 【快2】

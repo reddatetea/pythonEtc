@@ -1,0 +1,1 @@
+print(date_object.__str__())    # 打印返回的日期字符串

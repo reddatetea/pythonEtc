@@ -1,0 +1,5 @@
+print(sys.getswitchinterval()) # 输出默认线程间隔
+print('%.2f'%sys.getswitchinterval()) # 获取间隔并保留2位小数
+time.sleep(default) # 休眠指定时间
+strone = strone + random.choice(letter)  # 每次产生一个随机因子
+strtwo = strone[:5] + "-" + strone[5:10] + "-" + strone[10:15] + "-" + strone[15:20] + "-" + strone[20:25] # 将生成的防伪码每隔5位添加横线“-”

@@ -1,0 +1,2 @@
+dt3 = datetime.datetime.now(tz=gettz('Australia/Sydney'))         # 澳大利亚   悉尼时区
+print('澳大利亚 悉尼时区名称:',dt3.tzname())

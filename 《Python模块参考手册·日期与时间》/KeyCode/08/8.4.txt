@@ -1,0 +1,4 @@
+date_object = date(2019,8,13)   # 创建指定日期的date对象【快1】
+print(str(date_object)+'为  星期'+str(date_object.isoweekday())) # 打印星期几【快1】
+today = datetime.date.today()  # 获取今天的日期【快3】
+week_day = today.isoweekday()  # 获取今天是星期几【快3】

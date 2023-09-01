@@ -1,0 +1,8 @@
+print('取整后的时间戳为：      ',int(time.time()))         # 对时间戳取整【快1】
+print('小数点后两位的时间戳为：','%.2f' % time.time())     # 显示小数点后两位的时间戳【快1】
+int(round(time.time() * 1000))                             # 四舍五入并取整【快2】
+start_time = time.time()                                   # 记录开始时间【快3】
+end_time = time.time()                                     # 记录结束时间【快3】
+time_tup = time.localtime(t)                               # 将时间戳转换为时间元组【快5】
+time_tup = time.gmtime(t)                                  # 将时间戳转换为时间元组【快5】
+print('串行爬取电影详情页地址耗时：',end_time-start_time)  # 【快6】

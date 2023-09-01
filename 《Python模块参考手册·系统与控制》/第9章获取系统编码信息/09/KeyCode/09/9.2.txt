@@ -1,0 +1,2 @@
+encoding1 = sys.getfilesystemencoding()  # 获取本地文件编码格式
+if encoding1 == "utf-8":   # 判断编码格式是否为utf-8

@@ -1,0 +1,7 @@
+print(sys.__excepthook__)
+def myExcepthook(types, value, traceback):  # 自定义异常
+tracebackCode = traceback.tb_frame.f_code # 获取异常详细信息
+print("文件名：{}".format(tracebackCode.co_filename)) # 输出文件名
+print("函数或者模块名：{}".format(tracebackCode.co_name)) # 输出函数或模块名
+sys.excepthook = myExcepthook # 指定自定义异常
+sys.excepthook=sys.__excepthook__ # 重置异常

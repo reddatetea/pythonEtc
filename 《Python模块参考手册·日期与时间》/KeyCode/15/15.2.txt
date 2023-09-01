@@ -1,0 +1,3 @@
+﻿calendar_obj.monthdatescalendar(2019,8) # 获取2019年8月份内的周列表，该列表为二维列表【快1】
+mycal.monthdatescalendar(year, month)# 获取指定年份指定月份内的周列表，该列表为二维列表【快2】
+mdc = c.monthdatescalendar(expiry.year, expiry.month) #【快3】

@@ -1,0 +1,2 @@
+plus_four = datetime.timezone(datetime.timedelta(hours=4))  # 创建+4时区对象
+dt1 = datetime.datetime.now(plus_four)                      # 获取+4时区本地日期时间对象

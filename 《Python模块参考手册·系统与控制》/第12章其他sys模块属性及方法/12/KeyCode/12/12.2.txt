@@ -1,0 +1,2 @@
+print(sys.int_info) # 输出整数类型信息
+bits,size=sys.int_info # 使用两个变量存储位数所占的位数和字节大小

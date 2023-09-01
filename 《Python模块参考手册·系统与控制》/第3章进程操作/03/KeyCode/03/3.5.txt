@@ -1,0 +1,2 @@
+print(os.getppid( ))  # 获取父进程ID
+print("我是子进程，我的进程号是%d 我的父亲进程是%d"%(os.getpid(),os.getppid())) # 获取子线程和父线程ID

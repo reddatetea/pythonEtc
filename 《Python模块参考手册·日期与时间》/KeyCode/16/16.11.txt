@@ -1,0 +1,2 @@
+﻿textcalendar_object.formatyear(2019,m=6) # 打印2019年中所有月份的字符类型日历【快1】
+textcalendar=textcalendar_object.formatyear(int(year),m=6) #【快2】
